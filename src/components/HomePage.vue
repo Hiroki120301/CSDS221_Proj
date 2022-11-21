@@ -6,7 +6,7 @@
                 class='headline primary'
                 primary-title style='color: white;'>
                     <v-col><v-toolbar-title class="text-center"><v-app-bar-nav-icon color="white"></v-app-bar-nav-icon>FRAMEWORKS</v-toolbar-title></v-col>
-                    <th><v-icon></v-icon><AddTask name="Add" :tasks="listOfTasks" title="Add Task" @create-new-task="addTask($event)" /></th>
+                    <th style="margin:20px"><AddTask name="Add" :tasks="listOfTasks" title="Add Task" @create-new-task="addTask($event)" /></th>
             </v-card-title>
         <!--panel body-->
             <v-simple-table style='margin: 20px' >
